@@ -1,25 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
-
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
 
 html {
   margin: 0;
   height: 100%;
-  /*background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-  
 }
 
 body {
   margin: 0;
   height: 100%;
-  /*background: transparent;*/
-  font-family: 'Lato', Helvetica;
+  font-family: 'Lato';
   font-size: 17px;
+  background: #0fc2b0;
   color: #333;
 }
 
@@ -27,48 +21,63 @@ h1, h2, h3, h4 {
   font-weight: 200;
 }
 
-.main {
-  background: #FFF;
-  height: 100%;
+a {
+  color: #FFF;
+}
 
+.header {
+  background: #0fc2b0;
+  padding: 0.5em;
+ 
+}
+
+.blog {
+  margin-top: -17%;
+  float: right;
+  border: 2px solid #FFF;
+  padding: 0 2%;
 }
 
 .logo {
-  margin-top: 50%;
-  font-family: 'Playfair Display SC', serif;
-  text-align: center;
+  padding-top: 3%;
+  font-family: 'Hammersmith One', Futura;
   font-size: 4em;
-  color: #333;
+  letter-spacing: 2px;
+  color: #FFF;
+  text-align: center;
+}
+
+.box {
+  /*background: url(../img/background.jpg) no-repeat center center;
+  background-size: cover;*/
+
+  padding: 3%;
+}
+
+.tag {
+  padding: 0 3%;
 }
 
 .subtitle {
   font-weight: 200;
   text-align: center;
-  color: #333;
-}
-
-.middle {
-  background: #0fc2b0;
-  height: 50%;
   color: #FFF;
 }
 
 .signup {
-  background: #eee;
-  padding: 20%;
-  height: 100%;
+  padding: 5%;
   text-align: center;
 }
 
 .signup h2 {
-  color: #0fc2b0;
+  color: #FFF;
   font-weight: 200;
   text-align: center;
   margin-bottom: 3%;
 }
 
 .spam {
-  color: #888;
+  color: #FFF;
   text-align: center;
   font-size: 13px;
   margin-top: 1%;
@@ -76,7 +85,7 @@ h1, h2, h3, h4 {
 
 .form-control {
   border-color: #0fc2b0;
-  background: #eee;
+  background: #FFF;
   color: #0fc2b0;
 }
 
@@ -103,21 +112,58 @@ h1, h2, h3, h4 {
 
 .btn {
   background: #0fc2b0;
-  color: #eee;
+  color: #FFF;
+  border: 2px solid #FFF;
   font-size: 16px;
   height: 50px;
   padding: 10px 16px;
 }
 
 .btn:hover {
-  background: #eee;
+  background: #FFF;
   color: #0fc2b0;
-  border: 1px solid #0fc2b0;  
+  border: 1px solid #0fc2b0;
+  -webkit-transition: ;
+      -moz-transition: ;
+       -ms-transition: ;
+        -o-transition: ;
+           transition: ; 
 }
 
 @media (min-width: 768px) { 
-  .logo {
-    margin-top: 15%;
-    font-size: 10em;
+  
+  .blog {
+    margin-top: 4%;
+  }
+  .points {
+    margin: 5% 3% ;
+    background: #e3e3e3;
+  }
+
+  .actions {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 100%;
+    line-height: 1em;
+    text-align: center;
+    color: #FFF;
+    font-size: 6em;
+    font-weight: 400;
+  }
+
+  .med {
+    color: #ba4343;
+  }
+
+  .film{
+    color: #3d3d3d;
+  }
+
+  .plane {
+    color: #408acf;
   }
 }
