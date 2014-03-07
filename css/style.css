@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   height: 100%;
-  font-family: 'Lato';
+  font-family: 'Lato', Helvetica;
   font-size: 17px;
   background: #0fc2b0;
   color: #333;
@@ -25,21 +25,23 @@ a {
   color: #FFF;
 }
 
+a:hover {
+  color: #FFF;
+}
+
 .header {
   background: #0fc2b0;
-  padding: 0.5em;
- 
 }
 
 .blog {
-  margin-top: -17%;
+  margin-top: 10px;
+  margin-left: 5px;
   float: right;
-  border: 2px solid #FFF;
   padding: 0 2%;
+  height: 25px;
 }
 
 .logo {
-  padding-top: 3%;
   font-family: 'Hammersmith One', Futura;
   font-size: 4em;
   letter-spacing: 2px;
@@ -48,9 +50,6 @@ a {
 }
 
 .box {
-  /*background: url(../img/background.jpg) no-repeat center center;
-  background-size: cover;*/
-
   padding: 3%;
 }
 
@@ -65,7 +64,7 @@ a {
 }
 
 .signup {
-  padding: 5%;
+  padding: 5% 5% 2% 5%;
   text-align: center;
 }
 
@@ -123,11 +122,6 @@ a {
   background: #FFF;
   color: #0fc2b0;
   border: 1px solid #0fc2b0;
-  -webkit-transition: ;
-      -moz-transition: ;
-       -ms-transition: ;
-        -o-transition: ;
-           transition: ; 
 }
 
 @media (min-width: 768px) { 
@@ -155,15 +149,16 @@ a {
     font-weight: 400;
   }
 
+  .sm-icon {
+    width: 100%;
+    line-height: 1em;
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+    font-weight: 400;
+  }
+
   .med {
     color: #ba4343;
-  }
-
-  .film{
-    color: #3d3d3d;
-  }
-
-  .plane {
-    color: #408acf;
   }
 }
